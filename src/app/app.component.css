@@ -1,0 +1,217 @@
+/*****Logo Img Row******/
+.logo-img img
+{
+    width: 48%;
+}
+
+.address-img img
+{
+   width: 100%;
+}
+
+.contact-img img
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    div.logo-img img {
+        width: 100%;
+    }
+
+    div.address-img img {
+        display: none;
+    }
+
+    div.contact-img img {
+        display: none;
+    }
+  }
+
+
+/****We Offer Service Row*****/
+
+.round-image-div
+{
+    background-color: black;
+    text-align: center;
+    display: block;
+    height: 81%;
+    border-radius: 50%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    div.round-image-div 
+    {
+        background-color: black;
+        text-align: center;
+        display: block;
+        height: 234px;
+        border-radius: 50%;
+        width: 238px;
+        margin-left: 12%;
+    }
+
+  }
+
+
+
+  /*****Our Team Div*****/
+  .team-div
+  {
+    margin-top: 12%;
+  }
+ 
+  @media screen and (max-width: 600px) {
+    div.team-div
+    {
+      margin-top: 242%;
+    }
+
+  }
+
+
+
+/*****Our Works Row*****/
+
+.main-container
+{
+    height: 410px;
+    width: 300px;
+    background: linear-gradient(to bottom, white 50%, #fccd01 50%);
+}
+
+.image-container
+{
+    width: 330px;
+    height: 369px;
+    position: relative;
+    padding: 0px;
+    margin-left: -10%;
+}
+
+.image-container img
+{
+    width: 330px;
+    height: 369px;
+    
+}
+
+.overlay
+{
+    
+    width: 330px;
+    height: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.48) 0%,rgba(0,0,0,0.76) 100%);
+}
+
+.image-container:hover > .overlay{
+    height: 100%;
+    display: block;
+    transform-origin: bottom;
+}
+
+.button
+{ 
+    font-size: 8px;
+    height: 38px;
+    width: 240px;
+    position: absolute;
+    transform: translate(107px,325px);
+    margin-top: -51%;
+    margin-left: -20%;
+    text-align: center;
+}
+
+.text
+{
+    color: white;
+    background-color: rgb(03 31 31 / 1%);
+    font-size: 8px;
+    height: 38px;
+    width: 240px;
+    position: absolute;
+    transform: translate(107px,325px);
+    margin-top: -7%;
+    margin-left: -20%;
+    text-align: center;
+}
+
+.title
+{
+    font-size: 15px;
+    color: #fccd01;
+}
+
+.post
+{
+    font-size: 22px;
+}
+
+
+.desktop-our-works
+{
+    display: block;
+}
+
+.mobile-our-works
+{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+ .desktop-our-works
+{
+    display: none;
+}
+
+.mobile-our-works
+{
+    display: block;
+}
+  }
+
+
+
+/****Our Valued Clients****/
+
+.our-valued-div
+{
+    background-color: black;
+    text-align: center;
+    display: block;
+    height: 99%;
+    border-radius: 50%;
+    width: 75%;
+    margin-left: 13%;
+}
+
+.clients-image
+{
+    margin: 1.1rem;
+}
+
+
+
+/***Main Footer****/
+.links
+{
+    color: white;
+    text-decoration: none;
+}
+
+.links-span
+{
+    margin-right: 1%;
+}
