@@ -36,22 +36,22 @@
     background-color: black;
     text-align: center;
     display: block;
-    height: 81%;
+    height: 72%;
     border-radius: 50%;
-    width: 90%;
-    margin-left: 5%;
+    width: 75%;
+    margin-left: 13%;
 }
 
 @media screen and (max-width: 600px) {
     div.round-image-div 
     {
         background-color: black;
-        text-align: center;
-        display: block;
-        height: 234px;
-        border-radius: 50%;
-        width: 238px;
-        margin-left: 12%;
+    text-align: center;
+    display: block;
+    height: 132px;
+    border-radius: 50%;
+    width: 131px;
+    margin-left: 30%;
     }
 
   }
@@ -79,22 +79,22 @@
 .main-container
 {
     height: 410px;
-    width: 300px;
+    width: 250px;
     background: linear-gradient(to bottom, white 50%, #fccd01 50%);
 }
 
 .image-container
 {
-    width: 330px;
+    width: 266px;
     height: 369px;
     position: relative;
     padding: 0px;
-    margin-left: -10%;
+    margin-left: -8%;
 }
 
 .image-container img
 {
-    width: 330px;
+    width: 266px;
     height: 369px;
     
 }
@@ -102,7 +102,7 @@
 .overlay
 {
     
-    width: 330px;
+    width: 266px;
     height: 0;
     position: absolute;
     top: 0px;
@@ -130,7 +130,7 @@
     position: absolute;
     transform: translate(107px,325px);
     margin-top: -51%;
-    margin-left: -20%;
+    margin-left: -36%;
     text-align: center;
 }
 
@@ -143,8 +143,8 @@
     width: 240px;
     position: absolute;
     transform: translate(107px,325px);
-    margin-top: -7%;
-    margin-left: -20%;
+    margin-top: -11%;
+    margin-left: -35%;
     text-align: center;
 }
 
@@ -180,7 +180,14 @@
 {
     display: block;
 }
-  }
+
+div.image-container img
+{
+    width:271px ;
+    height: 369px;
+    
+}
+}
 
 
 
@@ -193,13 +200,13 @@
     display: block;
     height: 99%;
     border-radius: 50%;
-    width: 75%;
+    width: 78%;
     margin-left: 13%;
 }
 
 .clients-image
 {
-    margin: 1.1rem;
+    margin: 1.0rem;
 }
 
 
